@@ -1,0 +1,75 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Laravel specific files
+/public/storage
+/public/hot
+/public/mix-manifest.json
+/public/css
+/public/js
+/public/hot
+/public/mix-manifest.json
+/public/test
+/public/storage
+
+# IDE files
+/.vscode/
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# Laravel log and cache files
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.cache
+
+# Composer dependencies
+/vendor/
+
+# Laravel Mix
+/public/css/*.css
+/public/js/*.js
+/public/js/*.js.map
+/public/mix-manifest.json
+
+# Other files
+/node_modules
+npm-debug.log
+yarn-error.log
+.env
+Homestead.yaml
+Homestead.json
+
+# PHPUnit
+phpunit.xml
+
+# Ignore everything in the storage directory except storage/app/public
+# This will ignore all files in storage except storage/app/public
+# Custom exclusions can be added for other files or directories as needed
+/storage/*
+!/storage/app
+!/storage/app/public
+!/storage/logs
+
+# Ignore public directory except for specific files
+/public/*
+!/public/index.php
+!/public/.htaccess
+!/public/web.config
+!/public/favicon.ico
+!/public/robots.txt
