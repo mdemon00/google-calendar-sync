@@ -44,4 +44,11 @@
             </x-primary-button>
         </div>
     </form>
+
+    <!-- Google OAuth Login Button -->
+    <div class="flex items-center justify-center mt-4">
+        <a href="{{ route('auth.google') }}" class="btn btn-danger">
+            {{ __('Login with Google') }}
+        </a>
+    </div>
 </x-guest-layout>
